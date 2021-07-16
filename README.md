@@ -5,11 +5,21 @@ we went over how to use [flexbox][1] properties on parent and children elements.
 Now that you're a pro at using flexbox, go on and _flex_ your CSS skills!
 (Please pardon the pun).
 
-In this project, you'll use flexbox to recreate the Trello dashboard so that
-it's responsive to different screen sizes. Please clone the repository from
-https://github.com/appacademy-starters/css-flexbox-trello.
+In this practice, you'll use flexbox to recreate the Trello dashboard so that
+it's responsive to different screen sizes.
 
-## Project overview
+## Set up
+
+Clone the practice from the [starter].
+
+Once you've in VS Code, you can drag the __index.html__ file into your browser
+to view the webpage, or use the **File Explorer** to open it in your browser.
+The only file you will need to edit for this practice is __main.css__.
+
+> Remember to save the CSS file and refresh the page in the browser whenever you
+> make changes.
+
+## Background and Context
 
 [Trello][2] is a Web application that many professionals use to manage projects.
 In this project, you will use flexbox to recreate the Trello dashboard page
@@ -269,3 +279,4 @@ or equal to 750 pixels in width. For that break point, set the width of the
 [3]: https://css-tricks.com/almanac/properties/o/opacity/
 [4]: https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API
 [Font Awesome free icon search page]: https://fontawesome.com/icons?d=gallery&m=free
+[starter]: https://github.com/appacademy/practice-for-week-07-recreate-trello-long-practice
