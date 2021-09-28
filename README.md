@@ -38,7 +38,7 @@ Screenshot of page in small screen (mobile) format:
 ![Trello on a small screen](https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/flexbox/assets/trello-small-screen.png)
 
 All of the elements needed for the page are contained in the
-`flexbox-project.html` file. In addition to linking to `flexbox-project.css`,
+`index.html` file. In addition to linking to `main.css`,
 where you'll add your styles, the page also includes a CDN link to Font Awesome,
 a font that contains nice icons you can use for the header. To use an icon from
 Font Awesome, you just need to include an `i` element with the classes
@@ -248,7 +248,7 @@ Set the following properties to the indicated values for the `.boards__board`:
 
 | Property         | Value      |
 | ---------------- | ---------- |
-| Background color | black      |
+| Background color | hotpink    |
 | Border radius    | 3 pixels   |
 | Box sizing       | border box |
 | Font weight      | bold font  |
