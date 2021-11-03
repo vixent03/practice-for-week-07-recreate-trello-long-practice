@@ -12,7 +12,7 @@ it's responsive to different screen sizes.
 
 Clone the practice from the [starter].
 
-Once you've in VS Code, you can drag the __index.html__ file into your browser
+Once you're in VS Code, you can drag the __index.html__ file into your browser
 to view the webpage, or use the **File Explorer** to open it in your browser.
 The only file you will need to edit for this practice is __main.css__.
 
@@ -38,12 +38,13 @@ Screenshot of page in small screen (mobile) format:
 ![Trello on a small screen](https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/flexbox/assets/trello-small-screen.png)
 
 All of the elements needed for the page are contained in the
-`index.html` file. In addition to linking to `main.css`,
-where you'll add your styles, the page also includes a CDN link to Font Awesome,
-a font that contains nice icons you can use for the header. To use an icon from
-Font Awesome, you just need to include an `i` element with the classes
-"fa«indicator»" and "fa-«icon name»". For example, to include the solid "home"
+`index.html` file. You will have to link to `main.css`, where you'll add your 
+styles (try adding a `background-color` to the `.header-nav__container` to see 
+if the import was successful). The page also includes a CDN link to Font 
+Awesome, a font that contains nice icons you can use for the header. To use an 
+icon from Font Awesome, you just need to include an `i` element with the classes "fa«indicator»" and "fa-«icon name»". For example, to include the solid "home" 
 icon which looks like a house, you would add this HTML to your source code.
+
 
 ```html
 <i class="fas fa-home"></i>
