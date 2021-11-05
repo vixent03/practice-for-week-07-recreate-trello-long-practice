@@ -1,8 +1,12 @@
 /* Your code here */
 
 /* Supplied CSS follows. */
+.header-nav__group{
+  display: flex;
+}
+
 .header-nav__button {
-  display: inline;
+  display: inline-flex;
   border-radius: 3px;
   border: 0;
   cursor: pointer;
@@ -12,15 +16,12 @@
   background-color: hsla(0,0%,100%,.3);
   box-shadow: none;
   color: #fff;
-  height: 32px;
   line-height: 32px;
   margin: 0 4px 0 0;
-  padding: 0;
   transition: .1s ease;
   white-space: nowrap;
   padding: 8px;
-  height: 32px;
-  width: 32px;
+  height: 20px;
 }
 
 .header-nav__button#search > input {
@@ -45,4 +46,8 @@
   position: absolute;
   transform: translateX(-50%);
   top: 5px;
+}
+
+ .header-nav__button > i{
+  width: 24px;
 }

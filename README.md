@@ -38,11 +38,11 @@ Screenshot of page in small screen (mobile) format:
 ![Trello on a small screen](https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/flexbox/assets/trello-small-screen.png)
 
 All of the elements needed for the page are contained in the
-`index.html` file. You will have to link to `main.css`, where you'll add your 
-styles (try adding a `background-color` to the `.header-nav__container` to see 
-if the import was successful). The page also includes a CDN link to Font 
-Awesome, a font that contains nice icons you can use for the header. To use an 
-icon from Font Awesome, you just need to include an `i` element with the classes "fa«indicator»" and "fa-«icon name»". For example, to include the solid "home" 
+`index.html` file. You will have to link to `main.css`, where you'll add your
+styles (try adding a `background-color` to the `.header-nav__container` to see
+if the import was successful). The page also includes a CDN link to Font
+Awesome, a font that contains nice icons you can use for the header. To use an
+icon from Font Awesome, you just need to include an `i` element with the classes "fa«indicator»" and "fa-«icon name»". For example, to include the solid "home"
 icon which looks like a house, you would add this HTML to your source code.
 
 
@@ -86,20 +86,14 @@ is for that setting.
 
 
 Now, you'll need to use `display: flex` on the `header-nav__container` to put
-the three sections in the right place. You want all three elements to span the
-same widths in the nav bar.
+the three sections in the right place with space between them. (The trello logo in the center and
+the buttons to the left and right.)
 
-Then, in the left `.header-nav__group`, use flexbox to layout each
-`.header-nav__link`. You'll want to manipulate the margin and padding to get the
+Then for all the `.header-nav__group`, you'll want to manipulate the margin and padding to get the
 different elements spaced apart from one another.
 
-In the middle `.header-nav__group`, center the Trello logo.
-
-In the right `.header-nav__group`, have the buttons align right with the same
-spacing between them as you set between the elements in the first
-`.header-nav__group`. The alert button should have a background color of
+In the right `.header-nav__group`, the alert button should have a background color of
 "#CF513D".
-
 
 Once you have that, add a media query "breakpoint" to hide the search input
 field and the "Boards" text on screens with widths less than or equal to 730
